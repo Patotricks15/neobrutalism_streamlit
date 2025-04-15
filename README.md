@@ -1,4 +1,4 @@
-# Neobrutalism Components Demo Documentation
+# Streamlit Neobrutalism Components
 
 ## Overview
 
