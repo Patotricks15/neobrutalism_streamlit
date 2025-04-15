@@ -25,12 +25,6 @@ st.markdown("<p style='text-align: center;'>Example of various components with a
 # 1. Input Components
 # ================================
 
-# Text Input
-with st.container():
-    st.markdown("<div class='container-title'>Text Input</div>", unsafe_allow_html=True)
-    name = st.text_input("Name", "Enter your name", key="input_name")
-    st.markdown("</div>", unsafe_allow_html=True)
-
 # Text Area
 with st.container():
     st.markdown("<div class='container-title'>Comment</div>", unsafe_allow_html=True)
@@ -143,7 +137,6 @@ with st.container():
 with st.container():
     if st.button("Submit Data"):
         st.success(
-            f"**Name:** {name}\n\n"
             f"**Comment:** {comment}\n\n"
             f"**Number:** {number_value}\n\n"
             f"**Slider Value:** {slider_value}\n\n"
