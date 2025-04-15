@@ -31,6 +31,12 @@ with st.container():
     comment = st.text_area("Comment", placeholder="Write your comment", key="textarea_comment")
     st.markdown("</div>", unsafe_allow_html=True)
 
+# Text Input
+with st.container():
+    st.markdown("<div class='container-title'>Text Input</div>", unsafe_allow_html=True)
+    text_value = st.text_input("Enter some text", key="text_input")
+    st.markdown("</div>", unsafe_allow_html=True)
+
 # Checkbox
 with st.container():
     st.markdown("<div class='container-title'>Checkbox</div>", unsafe_allow_html=True)

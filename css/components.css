@@ -29,8 +29,8 @@ body {
     border-radius: 5px !important;
 }
 
-button[kind="primary"], button[kind="secondary"],
-[data-testid="stDownloadButton"] {
+button[kind="primary"],
+button[kind="secondary"] {
     background-color: #ffffff !important;
     color: #000000 !important;
     border: 3px solid #000000 !important;
@@ -44,8 +44,8 @@ button[kind="primary"], button[kind="secondary"],
     border-radius: 5px !important;
 }
 
-button[kind="primary"]:hover, button[kind="secondary"]:hover,
-[data-testid="stDownloadButton"]:hover {
+button[kind="primary"]:hover,
+button[kind="secondary"]:hover {
     background-color: #a8ccff !important;
 }
 
@@ -73,13 +73,20 @@ button[kind="primary"]:hover, button[kind="secondary"]:hover,
     border-radius: 5px !important;
 }
 
-textarea {
+[data-testid="stTextInput"], input[type="text"] {
     background-color: #ffffff !important;
     border: 3px solid #000000 !important;
     box-shadow: 6px 6px 0 #000000 !important;
     padding: 10px;
-    font-size: 1rem;
-    border-radius: 5px !important;
+    border-radius: 6px !important;
+}
+
+[data-testid="stTextArea"], input[type="text"] {
+    background-color: #ffffff !important;
+    border: 3px solid #000000 !important;
+    box-shadow: 6px 6px 0 #000000 !important;
+    padding: 10px;
+    border-radius: 6px !important;
 }
 
 [data-testid="stFileUploader"] {
@@ -87,7 +94,7 @@ textarea {
     border: 3px solid #000000 !important;
     box-shadow: 6px 6px 0 #000000 !important;
     padding: 10px;
-    border-radius: 5px !important;
+    border-radius: 6px !important;
 }
 
 [data-testid="stNumberInput"], input[type="number"] {
@@ -95,7 +102,7 @@ textarea {
     border: 3px solid #000000 !important;
     box-shadow: 6px 6px 0 #000000 !important;
     padding: 10px;
-    border-radius: 5px !important;
+    border-radius: 6px !important;
 }
 
 [data-baseweb="input"]:focus-within .css-1q9a12g-ValueContainer {
@@ -108,7 +115,7 @@ pre {
     border: 3px solid #000000 !important;
     box-shadow: 6px 6px 0 #000000 !important;
     padding: 10px !important;
-    border-radius: 5px !important;
+    border-radius: 6px !important;
 }
 
 div[role="progressbar"] {
@@ -117,7 +124,7 @@ div[role="progressbar"] {
     box-shadow: 6px 6px 0 #000000 !important;
     height: 30px !important;
     padding: 5px !important;
-    border-radius: 5px !important;
+    border-radius: 6px !important;
 }
 
 input[type="checkbox"] {
@@ -129,7 +136,7 @@ input[type="checkbox"] {
     border: 3px solid #000000 !important;
     box-shadow: 6px 6px 0 #000000 !important;
     padding: 5px;
-    border-radius: 5px !important;
+    border-radius: 6px !important;
 }
 
 [data-testid="stSelectbox"],
@@ -138,7 +145,7 @@ input[type="checkbox"] {
     border: 3px solid #000000 !important;
     box-shadow: 6px 6px 0 #000000 !important;
     padding: 10px;
-    border-radius: 5px !important;
+    border-radius: 6px !important;
 }
 
 [data-baseweb="select"] .css-1u9des2-control,
@@ -147,7 +154,7 @@ input[type="checkbox"] {
 [data-baseweb="select"] .css-1fsijta-control {
     border: 3px solid #000000 !important;
     box-shadow: 6px 6px 0 #000000 !important;
-    border-radius: 5px !important;
+    border-radius: 6px !important;
     background-color: #ffffff !important;
 }
 
