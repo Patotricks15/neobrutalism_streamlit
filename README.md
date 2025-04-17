@@ -4,6 +4,10 @@
 
 This project is a demonstration of how to build a Streamlit application using a neobrutalism design aesthetic. The goal is to showcase various built-in Streamlit components—such as text input, text area, slider, date input, and more—with a bold, high-contrast style characterized by strong black borders and pronounced drop shadows.
 
+
+![image](neobrutalism_streamlit.png)
+
+
 ## Project Structure
 
 ~~~
@@ -15,7 +19,7 @@ my_streamlit_app/
     └── components.css
 ~~~
 
-- **app.py:** The main application file that assembles the various components into the Streamlit app.
+- **my_streamlit_app.py:** The main application file that assembles the various components into the Streamlit app.
 - **streamlit.toml:** A configuration file to set the app theme, including the primary color.
 - **css/general.css:** Contains global styles for the body, containers, and titles.
 - **css/components.css:** Contains component-specific overrides to apply the neobrutalism style.
@@ -41,7 +45,7 @@ The primary objective of this project is to illustrate how custom CSS can be use
     In your project directory, run the following command:
 
     ```bash
-   pip install streamlit
+   streamlit run streamlit_app.py
 
 3. **Experience the Design:**
     The app will launch in your browser, showcasing a range of neobrutalism-styled components.
